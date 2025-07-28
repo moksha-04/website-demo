@@ -1,0 +1,175 @@
+/* Global styles */
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #fceedd;
+  color: #1d1d1d;
+}
+
+.header {
+  background-color: #394733;
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+}
+
+.hero {
+  background-color: #394733;
+  text-align: center;
+  color: white;
+  padding: 100px 20px 40px;
+  position: relative;
+}
+
+.main-title {
+  font-size: 72px;
+  color: white;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.outline-stack {
+  position: relative;
+  z-index: 1;
+}
+
+.outline-stack h1 {
+  font-size: 72px;
+  color: transparent;
+  -webkit-text-stroke: 1px #fbb03b;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.about {
+  padding: 60px 40px;
+  background-color: #fceedd;
+  color: #1d1d1d;
+}
+
+.about h2 {
+  font-size: 36px;
+}
+
+.contact {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin-top: 20px;
+  width: fit-content;
+}
+
+.about-links {
+  margin-top: 20px;
+}
+
+.about-links img {
+  width: 32px;
+  margin-right: 15px;
+}
+
+.resume-btn {
+  background-color: #e6673d;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 20px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.education {
+  background-color: #394733;
+  color: white;
+  padding: 60px 40px;
+}
+
+.education h2 {
+  color: #fbb03b;
+  font-size: 36px;
+}
+
+.edu-item {
+  margin-bottom: 30px;
+  border-left: 4px solid #e6673d;
+  padding-left: 20px;
+}
+
+.skills {
+  background-color: #394733;
+  color: white;
+  padding: 40px;
+}
+
+.skills h2 {
+  color: #fbb03b;
+  font-size: 36px;
+}
+
+.icons img {
+  width: 40px;
+  margin: 10px;
+}
+
+.projects {
+  background-color: #fceedd;
+  color: black;
+  padding: 60px 40px;
+}
+
+.projects h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.project-card {
+  background-color: #fbb03b;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  max-width: 400px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+}
+
+.footer {
+  background-color: #fceedd;
+  text-align: center;
+  font-size: 40px;
+  color: #e6673d;
+  padding: 40px 0;
+  font-weight: bold;
+}
+
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
